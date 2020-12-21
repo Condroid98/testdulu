@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo -e "Update\n"
+apt-get update
+
 echo "install webserver"
 echo "================================"
 echo -e "Install apache2\n"
