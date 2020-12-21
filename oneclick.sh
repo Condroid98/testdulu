@@ -41,6 +41,9 @@ echo -e "pindahkan selesai\n"
 cd /var/www/html
 mysql -u aaa -p12345 dbsosmed < dump.sql
 
+#restart layanan apache
+service apache2 restart
+
 echo "Sekarang coba akses IP"
 
 
