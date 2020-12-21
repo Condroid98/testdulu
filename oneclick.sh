@@ -16,7 +16,7 @@ echo -e "\ninstall selesai\n"
 #buat user
 mysql -u root <<EOFMYSQL
 create user 'devopscilsy'@'localhost' identified by '12345';
-grant all privileges on *.* to 'aaa'@'localhost';
+grant all privileges on *.* to 'devopscilsy'@'localhost';
 EOFMYSQL
 
 #akses mysql dengan user yang di atas
